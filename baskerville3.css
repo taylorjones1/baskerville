@@ -1,0 +1,197 @@
+/*-- css reset --*/
+* {
+    padding: 0%;
+    margin: 0%;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+body {
+    background: #f4d8cd;
+    color: #252422;
+    font-family: mrs eaves, serif;
+}
+
+section, header{
+
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+.dark{
+    background: #3a2e39;
+    padding: 2em 0;
+   
+}
+
+/*-- typographic styling --*/
+
+header h1{
+    font-size: 5.827rem;
+    font-style: bold;
+    color: #f9f9f9;
+    padding-top: 7rem;
+    
+    }
+
+header h2{
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+    text-indent: 1.5rem;
+}
+header p{
+    padding-bottom: 6rem;
+    font-size: 1.5rem;
+    color: #f9f9f9;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-style: bold;
+    font-weight: normal;
+}
+
+header h1, h2 {
+    color: #f9f9f9;
+}
+
+p{
+    line-height: 1.4;
+   
+}
+
+ul{
+    list-style: none;
+}
+
+blockquote{
+    color: #3a2e39;
+    font-size: 1.5rem;
+}
+
+cite{
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+
+p,blockquote,cite{
+    line-height: 1.5rem;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #3a2e39;
+    padding: 2.3em 0;
+    font-size: 0.80rem;
+
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color: #f9f9f9;
+}
+
+nav :hover{
+    border-bottom: none;
+    color: #3a2e39;
+transition: all 0.3s ease-in-out;
+}
+
+hr{
+margin: 100px 0;
+height: 1px;
+background-color: #f4d8cd;
+color: #3a2e39;
+border: 0 none;
+}
+
+footer{
+    font-size: 0.75rem;
+    text-align: center;
+    max-width: 700px;
+    margin:initial;
+}
+
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    width: 75%;
+}
+
+caption {
+    margin: 1.5em 0;
+    text-transform: uppercase;
+}
+th {
+    color: #f4d8cd;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #3a2e39;
+}
+
+th, td {
+    padding: 0.6em
+}
+
+table, td {
+    background: #f4d8cd;
+    border: 2px solid #3a2e39
+}
+
+h2,h3,h4{
+    font-family: mrs eaves, serif;
+    text-align:center
+}
+
+hr{
+    margin: 0;
+    height: 10px;
+    background-color: #f4d8cd ;
+    color: #3a2e39;
+    border: 0 none;
+}
+
+/*--Image Control --*/
+
+img{
+    display:block;
+    margin: 4em 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+footer{
+    color: #f9f9f9;
+    background-color: #3a2e39;
+    width: 700px;
+
+}
