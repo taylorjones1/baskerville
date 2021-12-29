@@ -203,6 +203,10 @@ img{
     padding: 0;
     display: block;
     position: absolute;
+    width: 100%;
+    align-items: center;
+    flex: 15%;
+    }
 }
 
 svg{
