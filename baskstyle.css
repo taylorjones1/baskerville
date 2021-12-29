@@ -134,6 +134,7 @@ footer{
     text-align: center;
     margin:initial;
     max-width: max-content;
+    color: #f9f9f9;
 }
 
 
@@ -190,7 +191,7 @@ img{
 }
 
 .headerimage{
-    align-content: right;
+    align-self: right;
     max-width: 50%;
     max-height: 60%;
     padding: 0;
