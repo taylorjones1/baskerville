@@ -118,7 +118,7 @@ nav a {
 nav :hover{
     border-bottom: none;
     color: #f4d8cd;
-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 hr{
@@ -132,7 +132,7 @@ border: 0 none;
 footer{
     font-size: 0.75rem;
     text-align: center;
-    margin:initial;
+    margin: initial;
     max-width: max-content;
     color: #f9f9f9;
 }
@@ -197,4 +197,5 @@ img{
     padding: 0;
     display: block;
     margin: 4em 0;
+    position: absolute;
 }
