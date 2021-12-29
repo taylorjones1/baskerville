@@ -197,7 +197,7 @@ footer{
 }
 
 .headerimage{
-    align-content: flex-end;
+    align-content: right;
     max-width: 50%;
     max-height: 60%;
     padding: 0;
