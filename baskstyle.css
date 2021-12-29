@@ -132,9 +132,15 @@ border: 0 none;
 footer{
     font-size: 0.75rem;
     text-align: center;
-    margin: initial;
-    max-width: max-content;
     color: #f9f9f9;
+    position:fixed;
+    top:0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #3a2e39;
+    padding: 2.3em 0;
+    font-size: 0.80rem;
 }
 
 
