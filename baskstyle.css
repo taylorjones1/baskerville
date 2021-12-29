@@ -192,7 +192,7 @@ img{
 footer{
     color: #f9f9f9;
     background-color: #3a2e39;
-    width: 700px;
+    width: fit-content;
 
 }
 
