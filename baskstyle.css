@@ -189,19 +189,26 @@ img{
     max-width: 100%;
 }
 
-.headerimage{
-    align-self: right;
-    max-width: 50%;
-    max-height: 60%;
-    padding: 0;
-    display: block;
-    position: absolute;
-    width: 100%;
-    align-items: center;
-    flex: 15%;
-    }
-
 
 svg{
     align-content: inline;
+}
+
+.headercontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.headertext{
+    flex: 60%;
+    margin: 0 3em 0 0;
+}
+
+.headerimg {
+    width: 90%;
+    align-self: center;
+    margin-top: auto;
 }
