@@ -211,6 +211,7 @@ svg{
     width: 50%;
     align-self: center;
     margin-top: auto;
+    flex: 40%;
 }
 
 .buttons {
