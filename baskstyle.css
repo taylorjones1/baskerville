@@ -212,3 +212,21 @@ svg{
     align-self: center;
     margin-top: auto;
 }
+
+.buttons {
+    color: #f4d8cd;
+    background-color: #3a2e39;
+    width: 100%;
+
+}
+
+.connections {
+    list-style: none;
+    display: inline-flex;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    padding: 1em;
+    width: 100%;
+    justify-content: center;
+
+}
