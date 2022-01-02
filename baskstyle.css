@@ -14,7 +14,6 @@ body {
 }
 
 section, header{
-
     width: 80%;
     max-width: 700px;
     margin: auto;
@@ -37,7 +36,6 @@ header h1{
     font-style: bold;
     color: #f9f9f9;
     padding-top: 7rem;
-    
     }
 
 header h2{
@@ -205,5 +203,5 @@ img{
 
 
 svg{
-    align-content: space-between;
+    align-content: inline;
 }
