@@ -27,6 +27,7 @@ section {
 .dark{
     background: #3a2e39;
     padding: 2em 0;
+    width: 100%;
 }
 
 /*-- typographic styling --*/
