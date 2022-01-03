@@ -190,7 +190,7 @@ svg{
 
 .headercontainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
     align-items: center;
@@ -202,9 +202,10 @@ svg{
 }
 
 .headerimg {
-    width: 80%;
-    align-items: center;
-    flex: 15%;
+    width: 70%;
+    align-items: flex-end;
+    flex: 35%;
+    padding: 0;
 }
 
 footer {
