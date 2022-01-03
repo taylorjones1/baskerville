@@ -202,11 +202,9 @@ svg{
 }
 
 .headerimg {
-    width: 40%;
-    align-self: center;
-    margin-top: auto;
-    flex: 40%;
-    margin-left: 2%;
+    flex: 35%;
+    align-items: flex-end;
+    width: 80%;
 }
 
 footer {
