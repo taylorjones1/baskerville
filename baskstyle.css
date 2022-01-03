@@ -212,6 +212,7 @@ svg{
     align-self: center;
     margin-top: auto;
     flex: 40%;
+    margin-left: 2%;
 }
 
 .buttons {
