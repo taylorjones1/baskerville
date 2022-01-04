@@ -191,23 +191,21 @@ svg{
 }
 
 .headercontainer {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
+    align-self: flex-start;
+    text-align: left;
 }
 
 .headertext{
-    flex: 60%;
-    margin: 0 3em 0 0;
+    display: flex;
+    flex-shrink: 0;
 }
 
 .headerimg {
-    width: 70%;
+    width: 80%;
     align-items: center;
-    flex: 35%;
-    padding: 0;
+    flex: 15%;
 }
 
 footer {
