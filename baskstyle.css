@@ -222,6 +222,7 @@ footer {
     color: #f4d8cd;
     background-color: #3a2e39;
     width: 100%;
+    display: inline-flex;
 
 }
 
