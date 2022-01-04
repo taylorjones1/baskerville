@@ -22,6 +22,7 @@ section, header{
 
 section {
     margin-bottom: 4rem;
+    padding-top: 2em;
 }
 
 .dark{
@@ -39,6 +40,7 @@ header h1{
     font-style: bold;
     color: #f9f9f9;
     padding-top: 7rem;
+
     }
 
 header h2{
@@ -189,7 +191,7 @@ svg{
 }
 
 .headercontainer {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
