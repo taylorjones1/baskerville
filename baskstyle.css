@@ -223,9 +223,10 @@ footer {
 }
 
 .buttons {
-    color: #f4d8cd;
-    background-color: #3a2e39;
+    color: #3a2e39;
+    background-color: #f4d8cd;
     width: 100%;
+    display: inline-flex;
 }
 
 .connections {
