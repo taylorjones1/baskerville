@@ -213,10 +213,11 @@ footer {
     font-family: "mrs eaves", "serif";
     font-size: 0.9em;
     justify-content: center;
-    background-color: #3a2e39;
-    color: #f4d8cd;
+    background-color: #f4d8cd;
+    color: #3a2e39;
     width: 100%;
     margin: 0%;
+    flex-direction: row;
 }
 
 .buttons {
@@ -233,5 +234,4 @@ footer {
     padding: 1em;
     width: 100%;
     justify-content: center;
-
 }
